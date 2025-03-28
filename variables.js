@@ -5,17 +5,17 @@
  *    They are named identifiers to refrence certain types of data like: strings, numbers,
  *    arrays, objects, etc. We can also change the value, or type of value in a variable.
  * 
- * 1. Declaration + Initializing: To declare a variable is simply creating a named base to initialize
+ * 1: Declaration + Initializing: To declare a variable is simply creating a named base to initialize
  *    later. To initialize is to use the assignment opperator "=" to assign a value. These two steps
  *    can be done on the same line.
  * 
- * 2. Var, let, const: There are three ways to declare a variable. Var is the most basic and easiest
+ * 2: Var, let, const: There are three ways to declare a variable. Var is the most basic and easiest
  *    to use, it is what you will first learn and it gets the job done (in small scale programs). Let
  *    is used to declare variables that are block-scoped, only accessable in the block they are
  *    declared in. Const is the declaration method to use if you DON'T want a variable to be redefined,
  *    this is also block-scoped.
  * 
- * 3. Hoisting: This simply a behavior where variable and function declarations are moved to the top
+ * 3: Hoisting: This simply a behavior where variable and function declarations are moved to the top
  *    of their scope before the code executes, meaning you can use them before declaration. When a
  *    variable is declared with var, its declaration is hoisted to the top of its scope, but its
  *    initialization (assignment of a value) is not, returns undefined. With let and const, variable
