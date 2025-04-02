@@ -45,3 +45,46 @@ let num3 = 30
 sum = sum - num3 // using "-" subtracts from sum to get 30, get same result from "-="
 
 // 3. Comparison Operators Examples:
+// comparison operators
+num1 > num2 // returns false because 20 is not greater than 40
+num3 < num2 // returns true beacuse 30 is less than 40
+// strictly equal operators
+let Num1 = "20"
+num1 === Num1 // returns false becasuea number is not equal to a string, even if the same number
+
+// 4. Logical Operarors Examples:
+// logical and operator
+if (num3 > num1 && num3 > num2) {
+    return true;
+} else {
+    return false;
+} // returns false because even tho 30 is greater than 20, 30 is not greater than 40
+// logical or operator
+if (num3 < num1 || num3 < num2) {
+    return true;
+} else {
+    return false;
+} // returns true becasue even tho 30 is not less than 20, 30 is less than 40
+// bang operator
+let F = false
+let T = true
+let output = []
+if (!num1) {
+  output.push(T)
+} else {
+  output.push(F)
+}
+console.log(output) // output = [false]
+
+// 5. Unary operators Examples:
+// increment/decrement
+var i = 0
+i++ // increments by 1
+i-- // decrements by 1
+// typeof
+console.log(typeof num1) // prints 'number'
+
+// 6. Ternary Operators Example:
+let a = 10
+let b = '10'
+a == b ? true : false // returns true, "==" checks to see if number is loosely equal to string
